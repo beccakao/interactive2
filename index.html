@@ -8,69 +8,99 @@
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
 
     <style>
-    body {
+    #links {
+      position:absolute;
       font-family:  sans-serif;
-      background-color: white;  
-      padding-left: 50px;
-      padding-top: 10px;
-    }
-
-    p {
-
+      background-color: transparent;  
+      padding-left: 100px;
+      padding-top: 125px;
+      margin-bottom: 200px;
     }
 
     h1 {
       font-size: 2em;
-      line-height: 1em;
     }
 
     h2 {
       font-size: 1.5em;
       font-weight: lighter;
-      line-height: 1em;
       padding-left: 33px;
     }
 
     a {
       font-weight: normal;
-      color: #0000ff;
+      color: #4F00FF;
       text-decoration: none;
       padding-left: 33px;
     }
 
     a:hover {
-      background-color: #ff004d;
+      background-color: #BAFFE3;
+    }
+
+    #title:hover {
+      background-color: #4F00FF;
+      color: #BAFFE3;
+    }
+
+    #title{
+      position: fixed;
+      font-family:  sans-serif;
+      font-size: 4em;
+      font-weight: bolder;
+      line-height: 10%;
+      background-color: transparent;  
+      margin-left: 63px;
+      margin-top: -13px;
+      margin-bottom: -13px;
+      background-color: #BAFFE3;
+      color: #4F00FF;
+
+    }
+
+    #footer{
+      position:absolute;
+      font-family: sans-serif;
+      font-size: small;
+      font-weight: lighter;
+      background-color: transparent;  
+      padding-left: 100px;
+      margin-top: 930px;
     }
     </style>
 </head>
 
 <body>
-  <div>
+  <div id="links">
       <h1>Exercises:</h1>
       <a href="" target="blank">Spreadsheet Typeface</a><br>
       <a href="" target="blank">Coding from Life</a><br>
       <a href="" target="blank">:hover</a>
-  </div>
 
-  <div>
       <h1>Presentation:</h1>
       <a href="" target="blank">Pecha Kucha: Lorem Ipsum</a>
-  </div>
 
-  <div>
       <h1>Projects:</h1>
-      <h2>Project 1 - Mouse Events</h2>
-      <a href="" target="blank">Prototype 1: 50 Result Charrette</a><br>
+      <h2>Mouse Events</h2>
+      <a href="projects/project1/50resultcharrette/index.html" target="blank">Prototype 1: 50 Result Charrette</a><br>
       <a href="" target="blank">Prototype 2: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
-      <h2>Project 2 - CSS Typeface</h2>
+      <h2>CSS Typeface</h2>
       <a href="" target="blank">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
-      <h2>Project 3 - Exhibition Microsite</h2>
+      <h2>Exhibition Microsite</h2>
       <a href="" target="blank">Sketches</a><br>
       <a href="" target="blank">Prototype: Lorem Ipsum</a><br>
       <a href="" target="blank">Final: Lorem Ipsum</a>
+  </div>
+
+  <div id="title">
+      <p> &nbsp; Interactive 2 &nbsp; </p>
+  </div>
+
+  <div id="footer">
+          <p> rebecca kao | fall 2017 </p>
   </div>
 </body>
 </html>
