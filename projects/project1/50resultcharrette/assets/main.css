@@ -36,8 +36,8 @@ p {
 	width: 18%;
 	margin-top: 20px;
 	margin-left: 20px;
-	background-color: #BAFFE3;
-	color: #4F00FF;
+	background-color: white;
+	color: black;
 	/* comment out 'float: left;' to have items stack in a single column */
 	float: left; 
 
