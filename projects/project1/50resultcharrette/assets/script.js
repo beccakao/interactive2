@@ -167,53 +167,53 @@ $(document).ready(function(){
 		}, 20000 );
 		$(this).css('cursor','wait');
 	});
-	// Draggable
-	$(function() {
-	    $("#button-24").draggable();
-		});
-	});
-	// Bounce
-	$('#button-25').click(function(){
-    	$("#button-25").effect("bounce", { times:3 }, 2000);
-	})
-	// Zoom out
-	$('#button-26').click(function(){
-    	$("#button-26").effect("scale", {percent: 50}, 2000);
-	});
-	// Zoom in
-	$('#button-27').click(function(){
-    	$("#button-27").effect("scale", {percent: 200}, 2000);
-	});
-	// Shake
-	$('#button-28').click(function(){
-    	$("#button-28").effect("shake", { times:3 }, 500);
-	})
-	// Fold
-	$('#button-29').click(function(){
-    	$("#button-29").effect("fold", {horizFirst: true}, 2000);
-	})
-	// Explode
-	$('#button-35').click(function(){
-    	$("#button-35").css("background-color","yellow")
-    	$("#button-35").effect("explode", 3000);
-	});
-	// Clip
-	$('#button-40').click(function(){
-		$(this).animate({
-			fontSize: '333px',
-		}, 1000 );
-    	$("#button-40").effect("clip", 1000);
-	});
-	// Puff
-	$('#button-41').click(function(){
-		$("#button-41").css("background-color","red")
-    	$("#button-41").effect("puff", 2000);
-	});
-	// Pulsate
-	$('#button-44').click(function(){
-		$("#button-44").css("background-color","yellow")
-    	$("#button-44").effect("pulsate", 500);
-    });
+
+	// // Draggable
+	// $("#button-24").click(function() {
+	//     $("#button-24").draggable();
+	// });
+	// // Bounce
+	// $('#button-25').click(function(){
+ //    	$("#button-25").effect("bounce", { times:3 }, 2000);
+	// });
+	// // Zoom out
+	// $('#button-26').click(function(){
+ //    	$("#button-26").effect("scale", {percent: 50}, 2000);
+	// });
+	// // Zoom in
+	// $('#button-27').click(function(){
+ //    	$("#button-27").effect("scale", {percent: 200}, 2000);
+	// });
+	// // Shake
+	// $('#button-28').click(function(){
+ //    	$("#button-28").effect("shake", { times:3 }, 500);
+	// });
+	// // Fold
+	// $('#button-29').click(function(){
+ //    	$("#button-29").effect("fold", {horizFirst: true}, 2000);
+	// });
+	// // Explode
+	// $('#button-35').click(function(){
+ //    	$("#button-35").css("background-color","yellow")
+ //    	$("#button-35").effect("explode", 3000);
+	// });
+	// // Clip
+	// $('#button-40').click(function(){
+	// 	$(this).animate({
+	// 		fontSize: '333px',
+	// 	}, 1000 );
+ //    	$("#button-40").effect("clip", 1000);
+	// });
+	// // Puff
+	// $('#button-41').click(function(){
+	// 	$("#button-41").css("background-color","red")
+ //    	$("#button-41").effect("puff", 2000);
+	// });
+	// // Pulsate
+	// $('#button-44').click(function(){
+	// 	$("#button-44").css("background-color","yellow")
+ //    	$("#button-44").effect("pulsate", 500);
+ //    });
 	// Hide
 	$('#button-45').click(function() {
 		$(this).hide()
@@ -222,11 +222,11 @@ $(document).ready(function(){
 	$('#button-46').click(function() {
     	window.print();
 	});
-	// Close tab
-	$('#button-50').click(function closeWin() {
-    	window.top.close();
-	});
-});
+// 	// Close tab
+// 	$('#button-50').click(function closeWin() {
+//     	window.top.close();
+// 	});
+// });
 
 
 
