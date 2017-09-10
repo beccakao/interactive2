@@ -57,6 +57,16 @@ div.green { width: 100px;
             display: block;
 			margin: 0 auto;
         }
+
+#footer{
+      position:absolute;
+      font-family: helvetica, arial, sans-serif;
+      font-weight: lighter;
+      color: gray;  
+      margin-left: 32px;
+      margin-top: 2785px;
+    }
+
 #title:hover {
       background-color: transparent;
       color: white;
