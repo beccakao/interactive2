@@ -14,7 +14,12 @@
 // 			marginLeft: '1in'
 // 		}, 1000 );
 // 	});
-
+// Back to top
+	function topFunction() {
+    	document.body.scrollTop = 0; // For Chrome, Safari and Opera 
+    	document.documentElement.scrollTop = 0; // For IE and Firefox
+	}
+	
 $(document).ready(function(){
 	// Make text larger
 	$('#button-1').click(function() {
@@ -74,15 +79,54 @@ $(document).ready(function(){
 		$(this).css("text-align","center")
 		$(this).css("vertical-align","middle")
 	});
-
-    $('#button-9').click(function() {
+    // Round corners
+    $("#button-9").click(function () {
+		  $(this).css({
+		    borderTopLeftRadius: 0, 
+		    borderTopRightRadius: 0, 
+		    borderBottomLeftRadius: 0, 
+		    borderBottomRightRadius: 0,
+		    WebkitBorderTopLeftRadius: 0, 
+		    WebkitBorderTopRightRadius: 0, 
+		    WebkitBorderBottomLeftRadius: 0, 
+		    WebkitBorderBottomRightRadius: 0, 
+		    MozBorderRadius: 0 
+		  })
+		  $(this).animate({
+		    borderTopLeftRadius: 135, 
+		    borderTopRightRadius: 135, 
+		    borderBottomLeftRadius: 135, 
+		    borderBottomRightRadius: 135,
+		    WebkitBorderTopLeftRadius: 135, 
+		    WebkitBorderTopRightRadius: 135, 
+		    WebkitBorderBottomLeftRadius: 135, 
+		    WebkitBorderBottomRightRadius: 135, 
+		    MozBorderRadius: 135, 
+		   	fontSize: '333px',
+		  }, 1000); 
 	});
-
+	// Border style
+	$("#button-10").click(function () {
+		  $(this).css("box-shadow", "inset 0px 0px 0px 10px red")
+		  $(this).animate({
+		   	fontSize: '333px',
+		  }, 1000); 
+	});
+	// Make text larger
+	$('#button-11').dblclick(function() {
+		$(this).animate({
+			fontSize: '333px',
+		}, 1000 );
+	});
+	
 	// Hide
 	$('#button-45').click(function() {
 		$(this).hide()
 	});
-
+	// Print
+	$('#button-46').click(function() {
+    	window.print();
+	});
 	// Close tab
 	$('#button-50').click(function closeWin() {
     	window.top.close();
