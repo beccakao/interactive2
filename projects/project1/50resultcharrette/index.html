@@ -6,10 +6,20 @@
     <title>50 Results Charrette</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="assets/main.css" type="text/css" />
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  	<link rel="stylesheet" href="/resources/demos/style.css">
+  	<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src = "https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+
     <script src="assets/script.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  	<script type="text/javascript" src="js/jquery.plugin.js"></script> 
+	<script type="text/javascript" src="js/jquery.datepick.js"></script>
 
 </head>
 
@@ -77,94 +87,138 @@
 
             <div class="item" id="button-12">
             <p> 12 </p>
+            <h1> HOVER </h1>
             </div>
 
             <div class="item" id="button-13">
             <p> 13 </p>
+            <h1> CROSSHAIR </h1>
             </div>
 
             <div class="item" id="button-14">
             <p> 14 </p>
+            <h1> MOVE HORIZONTALLY </h1>
+            <button id="left">LEFT</button>
+            <br></br>
+            <button id="right">RIGHT</button>
             </div>
 
             <div class="item" id="button-15">
             <p> 15 </p>
+            <h1> MOVE VERTICALLY </h1>
+            <button id="up">UP</button>
+            <br></br>
+            <button id="down">DOWN</button>
             </div>
         </div>
 
         <div class="row">
             <div class="item" id="button-16">
             <p> 16 </p>
+            <h1> LIGHTS ON </h1>
             </div>
 
             <div class="item" id="button-17">
             <p> 17 </p>
+            <h1> LIGHTS OFF </h1>
             </div>
 
             <div class="item" id="button-18">
             <p> 18 </p>
+            <h1> HIGHLIGHT </h1>
             </div>
 
             <div class="item" id="button-19">
             <p> 19 </p>
+			<h1> DESELECT </h1>
             </div>
 
             <div class="item" id="button-20">
             <p> 20 </p>
+			<h1> TYPE </h1>
+            <textarea>TYPE HERE</textarea>
             </div>
         </div>
 
         <div class="row">
             <div class="item" id="button-21">
             <p> 21 </p>
+			<h1> AUDIO </h1>
+			<audio id="audio" src="assets/21.mp3" autostart="false" ></audio>
+    		<button onclick="playSound();"> PLAY AUDIO </button>
+			</audio>
             </div>
 
             <div class="item" id="button-22">
             <p> 22 </p>
+			<h1> CLICK COUNTER </h1>
+            <button type="button" onClick="onClick()">CLICK ME</button>
+   			<p>CLICKS: <a id="clicks">0</a></p>
             </div>
 
             <div class="item" id="button-23">
             <p> 23 </p>
+			<h1> LOADING </h1>
             </div>
 
             <div class="item" id="button-24">
             <p> 24 </p>
+			<h1> DRAG </h1>
             </div>
 
             <div class="item" id="button-25">
             <p> 25 </p>
+			<h1> BOUNCE </h1>
             </div>
         </div>
 
         <div class="row">
             <div class="item" id="button-26">
             <p> 26 </p>
+			<h1> ZOOM OUT </h1>
             </div>
 
             <div class="item" id="button-27">
             <p> 27 </p>
+			<h1> ZOOM IN </h1>
             </div>
 
             <div class="item" id="button-28">
             <p> 28 </p>
+			<h1> SHAKE </h1>
             </div>
 
             <div class="item" id="button-29">
             <p> 29 </p>
+			<h1> FOLD </h1>
             </div>
 
             <div class="item" id="button-30">
             <p> 30 </p>
+			<h1> DOWNLOAD </h1>
+            <a href="assets/30.jpg" download>
+            <img border="0" src="assets/30.jpg" alt="30 Cats" width="250" height="125">
+            </a>
             </div>
         </div>
 
         <div class="row">
             <div class="item" id="button-31">
             <p> 31 </p>
+			<h1> CHECK </h1>
+            <form>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+  			<input type="checkbox"> <br>
+			</form>
             </div>
 
             <div class="item" id="button-32">
             <p> 32 </p>
+			<h1> RANDOM COLORS </h1>
+			<div class="square"></div>
             </div>
 
             <div class="item" id="button-33">
@@ -177,6 +231,7 @@
 
             <div class="item" id="button-35">
             <p> 35 </p>
+            <h1> EXPLODE </h1>
             </div>
         </div>
 
@@ -199,12 +254,14 @@
 
             <div class="item" id="button-40">
             <p> 40 </p>
+            <h1> CLIP </h1>
             </div>
         </div>
 
         <div class="row">
             <div class="item" id="button-41">
             <p> 41 </p>
+            <h1> PUFF </h1>
             </div>
 
             <div class="item" id="button-42">
@@ -222,6 +279,7 @@
 
             <div class="item" id="button-44">
             <p> 44 </p>
+            <h1> STROBE </h1>
             </div>
 
             <div class="item" id="button-45">

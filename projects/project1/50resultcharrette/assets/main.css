@@ -1,5 +1,3 @@
-/* reset padding and margins */
-
 * {
 	margin: 0px;
 	padding: 0px;
@@ -29,7 +27,36 @@ button {
 	margin: 0 auto;
 }
 
-/* container */
+input {
+	display: block;
+	margin: 0 auto;
+}
+
+textarea {
+    height: 100px;
+    width: 200px;
+    display: block;
+	margin: 0 auto;
+}
+
+audio {
+	width: 200px;
+    display: block;
+	margin: 0 auto;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+}
+
+.square {
+        width: 100px;
+        height: 100px;
+        background-color: #000000;
+		display: block;
+		margin: 0 auto;
+     }
 
 .container {
 	position: absolute;
@@ -46,8 +73,6 @@ button {
 	align-items: center;
 }
 
-/* items */
-
 .item {
 	height: 250px;
 	width: 18%;
@@ -55,51 +80,5 @@ button {
 	margin-left: 20px;
 	background-color: white;
 	color: black;
-	/* comment out 'float: left;' to have items stack in a single column */
 	float: left; 
-
-	/* uncomment this to get CSS transitions (conflicts with jQuery) */
-	/* transition: all 500ms ease; */
 }
-
-#button-1{
-	background-color: white;
-}
-
-/*#button-2{
-	background-color: green;
-}
-
-#button-3{
-	background-color: blue;
-}
-
-#button-4{
-	background-color: yellow;
-}*/
-/* example buttons */
-
-/*#button-1:hover {
-	transform: rotate(90deg) scale(1.5);
-	opacity: .3;
-	background-color: green;
-}
-
-#button-1:active {
-	background: pink;
-	opacity: 1;
-}*/
-
-/* example buttons */
-
-/*#button-2::after {
-	content: 'this is added after the content inside the button';
-	color: white;
-}
-
-
-#button-2:hover::after {
-	content: 'this text changes on hover';
-	color: red;
-}
-*/
