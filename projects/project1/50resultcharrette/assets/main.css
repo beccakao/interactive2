@@ -50,14 +50,6 @@ img {
 	margin: 0 auto;
 }
 
-.square {
-        width: 100px;
-        height: 100px;
-        background-color: #000000;
-		display: block;
-		margin: 0 auto;
-     }
-
 .container {
 	position: absolute;
 	width: 100%;
