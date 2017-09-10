@@ -8,8 +8,20 @@
 p {
 	font-family: helvetica, arial, sans-serif;
 	font-weight: bold;
-	margin-top: 6px;
-	margin-left: 5px;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h1 {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: bold;
+	font-size: 2em;
+	text-align: center;
+	vertical-align: middle;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 /* container */
@@ -45,11 +57,11 @@ p {
 	/* transition: all 500ms ease; */
 }
 
-/*#button-1{
-	background-color: red;
+#button-1{
+	background-color: white;
 }
 
-#button-2{
+/*#button-2{
 	background-color: green;
 }
 
@@ -59,7 +71,7 @@ p {
 
 #button-4{
 	background-color: yellow;
-}
+}*/
 /* example buttons */
 
 /*#button-1:hover {
