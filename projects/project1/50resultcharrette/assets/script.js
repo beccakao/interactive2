@@ -79,15 +79,10 @@ $(document).ready(function(){
 	});
 
 	// Hide
-	$('#button-48').click(function() {
+	$('#button-45').click(function() {
 		$(this).hide()
 	});
-	// New tab
-	$('#button-49').click(function closeWin() {
-		$( this ).attr( 'target', '_blank' );
-		window.location = $(this).find("a").attr("href");
-        return false;
-	});
+
 	// Close tab
 	$('#button-50').click(function closeWin() {
     	window.top.close();
