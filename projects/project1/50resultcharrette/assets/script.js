@@ -221,7 +221,12 @@ $(document).ready(function(){
   	$('#button-37').click(function() {
 		$('h1').animate({
 			fontSize: '20px',
-		}, 1000 );  	})
+		}, 1000 );
+	});
+  	// Remove title
+  	$('#button-38').click(function() {
+		$('#title').hide()
+	});
 	// Show
 	$("#show").click(function () {
         $(".mydiv").show( 1000 );

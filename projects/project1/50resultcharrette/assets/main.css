@@ -57,7 +57,21 @@ div.green { width: 100px;
             display: block;
 			margin: 0 auto;
         }
+#title:hover {
+      background-color: transparent;
+      color: white;
+    }
 
+#title{
+      position: fixed;
+      font-family: helvetica, arial, sans-serif;
+      font-size: 4em;
+      font-weight: bolder;
+      margin-left: 30px;
+      background-color: white;
+      color: black;
+    }
+    
 #resizable { 	width: 100px;
 				height: 100px;
 	            display: block;
@@ -85,6 +99,7 @@ div.green { width: 100px;
 	height: auto;
 	padding-bottom: 20px;
 	padding-left: 12px;
+	margin-top: 75px;
 }
 
 .row{
