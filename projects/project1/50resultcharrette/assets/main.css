@@ -61,10 +61,11 @@ div.green { width: 100px;
 #footer{
       position:absolute;
       font-family: helvetica, arial, sans-serif;
+      font-size: small;
       font-weight: lighter;
       color: gray;  
       margin-left: 32px;
-      margin-top: 2785px;
+      margin-top: 2783px;
     }
 
 #title:hover {
