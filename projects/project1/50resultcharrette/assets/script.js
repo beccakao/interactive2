@@ -192,11 +192,43 @@ $(document).ready(function(){
 	$('#button-29').click(function(){
     	$("#button-29").effect("fold", {horizFirst: true}, 2000);
 	});
+	// Transfer
+	$("div.green").click(function () {
+        var i = 1 - $("div.green").index(this);
+        $(this).effect("transfer",{ to: $("div").eq(i) }, 1000);
+    });
+    // Change cursor
+	$('#button-33').click(function() {
+		$(this).animate({
+			fontSize: '333px',
+		}, 1000 );
+		$(this).css('cursor','help');
+	});
+	// Resize
+	$(function() {
+        $( "#resizable" ).resizable();
+    });
 	// Explode
 	$('#button-35').click(function(){
     	$("#button-35").css("background-color","yellow")
     	$("#button-35").effect("explode", 3000);
 	});
+	// Change typeface
+	$('#button-36').click(function() {
+		$('h1').css("font-family", "Comic Sans MS")
+	});
+	// Change font size
+  	$('#button-37').click(function() {
+		$('h1').animate({
+			fontSize: '20px',
+		}, 1000 );  	})
+	// Show
+	$("#show").click(function () {
+        $(".mydiv").show( 1000 );
+    });
+    $("#hide").click(function () {
+        $(".mydiv").hide( 1000 );
+    });
 	// Clip
 	$('#button-40').click(function(){
 		$(this).animate({
