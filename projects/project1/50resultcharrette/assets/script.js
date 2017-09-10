@@ -226,7 +226,7 @@ $(document).ready(function(){
 // 	$('#button-50').click(function closeWin() {
 //     	window.top.close();
 // 	});
-// });
+});
 
 
 
