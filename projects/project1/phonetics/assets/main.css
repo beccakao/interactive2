@@ -6,9 +6,9 @@
 
 	   .box{
    	width: 10%;
-   	height: 133px;
+   	height: 144px;
    	background-color: white;
-   	cursor: pointer;
+   	cursor: crosshair;
    	position: relative;
    	float: left;
       box-shadow: 0px 0px rgba(0,150,255,0.5);
