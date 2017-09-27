@@ -300,272 +300,620 @@ $(document).ready(function(){
             $("#50r")[0].currentTime = 0;
             $("#50r")[0].play();
             });
+
+        $( "#s" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#s" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#t" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#t" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#i" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#i" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#p" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#p" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#k" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#k" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#e" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#e" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#n" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#n" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#h" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#h" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#r" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#r" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#m" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#m" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#d" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#d" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#g" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#g" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#o" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#o" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+         $( "#a2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#a2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#l" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#l" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
  
-        
-
-        $("#s").click(function(){
-            $(".box").css("box-shadow","0 5px 500px")
-            $(".box").css("background-color","#0096ff")
+        $( "#f" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#t").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#f" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#i").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#b" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#p").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#b" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#k").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#a3" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#e").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#a3" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#n").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#j" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#h").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#j" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#r").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#o2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#m").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#o2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#d").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#i2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#g").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#i2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-
-        $("#o").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+ 
+        $( "#a" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#a2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#a" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#l").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#e2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#f").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#e2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#b").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#o3" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#a3").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#o3" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#j").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#z" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#o2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#z" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#i2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#w" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#a").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#w" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#e2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#n2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#o3").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#n2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#z").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#v" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#w").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#v" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#n2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#u" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#v").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#u" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#u").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#u2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#u2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#u2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#y").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#y" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#x").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#y" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#ch").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#x" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#sh").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#x" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#th").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#ch" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#th2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#ch" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#q").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#sh" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#ow").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#sh" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#oi").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#th" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#u3").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#th" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#er").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#th2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#ar").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#th2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#d2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        $( "#q" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#h2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#q" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#p2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        $( "#ow" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
             });
-
-
-        $("#n3").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#0096ff")
+        });
+        $( "#ow" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
-        $("#m2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        $( "#oi" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
             });
-
-        $("#k2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","white")
+        });
+        $( "#oi" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
 
 
-        $("#e3").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#fbba84")
+        $( "#u3" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
             });
-
-        $("#r2").click(function(){
-            $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#96ff00")
+        });
+        $( "#u3" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
             });
+        });
+
+        $( "#er" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#er" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#ar" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#ar" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#d2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#d2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#h2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#h2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#p2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#p2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#n3" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#n3" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#m2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#m2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#k2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#EEEEEE",
+            });
+        });
+        $( "#k2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+
+        $( "#e3" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#0096ff",
+            });
+        });
+        $( "#e3" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
+
+        $( "#r2" ).mousedown(function() {
+            $( this ).css({
+            backgroundColor: "#96ff00",
+            });
+        });
+        $( "#r2" ).mouseup(function() {
+            $( this ).animate({
+            backgroundColor: "white",
+            }, 2000, function() {
+            });
+        });
 });
