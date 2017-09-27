@@ -315,7 +315,7 @@ $(document).ready(function(){
 
         $("#i").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -331,7 +331,7 @@ $(document).ready(function(){
 
         $("#e").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -347,7 +347,7 @@ $(document).ready(function(){
 
         $("#r").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -363,7 +363,7 @@ $(document).ready(function(){
 
         $("#g").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -379,7 +379,7 @@ $(document).ready(function(){
 
         $("#l").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -395,7 +395,7 @@ $(document).ready(function(){
 
         $("#a3").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -411,7 +411,7 @@ $(document).ready(function(){
 
         $("#i2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -427,7 +427,7 @@ $(document).ready(function(){
 
         $("#o3").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -443,7 +443,7 @@ $(document).ready(function(){
 
         $("#n2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -459,7 +459,7 @@ $(document).ready(function(){
 
         $("#u2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -475,7 +475,7 @@ $(document).ready(function(){
 
         $("#ch").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -491,7 +491,7 @@ $(document).ready(function(){
 
         $("#th2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -507,7 +507,7 @@ $(document).ready(function(){
 
         $("#oi").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -523,7 +523,7 @@ $(document).ready(function(){
 
         $("#ar").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -539,7 +539,7 @@ $(document).ready(function(){
 
         $("#p2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
@@ -555,7 +555,7 @@ $(document).ready(function(){
 
         $("#k2").click(function(){
             $(".box").css("box-shadow","0 5px 3000px")
-            $(".box").css("background-color","#ff0096")
+            $(".box").css("background-color","white")
             });
 
 
