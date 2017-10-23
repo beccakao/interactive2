@@ -3,8 +3,487 @@
    	font-weight: bold;
    	font-size: 2em;
    	}
+
       .container{
-      position:absolute;
+         margin-top: 150px;
+         margin-bottom: 150px;
+         white-space: nowrap;
+         overflow-x: auto;
+      }
+
+      .letter{
+         width: 300px;
+         height: 400px;
+         background-color: red;
+         margin: 10px;
+         display: inline-block
+      }
+
+      .dot1 {
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: white;
+         margin-top: 80px;
+         margin-left: 100px;
+      }
+
+
+      .dot1_var {
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: white;
+         margin-top: 150px;
+         margin-left: 100px;
+      }
+      
+      .dot1_var2 {
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: white;
+         margin-top: 30px;
+         margin-left: 100px;
+      }
+
+      .dot2 {
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: white;
+         margin-left: 100px;
+         margin-top: 40px;
+      }
+
+      .halfcircle1 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 100px;
+         margin-top: 170px;
+      }
+
+      .halfcircle1_var {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 100px;
+         margin-top: 300px;
+      }
+
+      .halfcircle1_var2 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 100px;
+         margin-top: 100px;
+      }
+
+      .halfcircle1_var3 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 100px;
+         margin-top: 350px;
+      }
+
+      .halfcircle1_var4 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 33.33px;
+         margin-top: 350px;
+      }
+
+      .halfcircle1_var5 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 166.66px;
+         margin-top: -50px;
+      }
+      
+      .halfcircle1_var6 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 33.33px;
+      }
+
+      .halfcircle1_var7 {
+         width: 100px;
+         height: 50px;
+         background: white;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 166.66px;
+         margin-top: -50px;
+      }
+
+      .halfcircle2 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 80px;
+      }
+
+      .halfcircle2_var {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 150px;
+      }
+
+      .halfcircle2_var2 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 100px;
+      }
+
+      .halfcircle2_var3 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: -25px;
+      }
+
+      .halfcircle2_var4 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 170px;
+      }
+
+      .halfcircle2_var5 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 40px;
+      }
+
+
+      .halfcircle2_var6 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: -30px;
+      }
+
+      .halfcircle2_var7 {
+         height: 100px;
+         width: 50px;
+         border-radius: 0 100px 100px 0;
+         background: white;
+         margin-top: 40px;
+      }
+
+      .halfcircle3 {
+         height: 100px;
+         width: 50px;
+         border-radius: 100px 0 0 100px;
+         background: white;
+         margin-left: 250px;
+         margin-top: 40px;
+      }
+
+
+      .halfcircle3_ver {
+         height: 100px;
+         width: 50px;
+         border-radius: 0 100px 100px 0;
+         background: white;
+         margin-top: 80px;
+      }
+
+      .halfcircle4{
+        height: 50px;
+        width: 100px;
+        border-radius: 0 0 100px 100px;
+        background: white;
+        margin-left: 100px;
+      }
+
+      .halfcircle5{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: -100px;
+      }
+
+      .halfcircle5_var{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: 150px;
+      }
+
+      .halfcircle5_var2{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: 40px;
+      }
+
+      .halfcircle5_var3{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: -100px;
+      }
+
+      .halfcircle5_var4{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: -250px;
+      }
+
+      .halfcircle5_var5{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: 80px;
+      }
+      
+      .halfcircle5_var6{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: 40px;
+      }
+     
+      .halfcircle5_var7{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: -30px;
+      }
+      .quartercircle1{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 50px 0 0 0;
+        margin-top: 175px;
+        margin-left: 250px;
+      }
+
+      .quartercircle1_var{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 50px 0 0 0;
+        margin-top: 100px;
+        margin-left: 250px;
+      }
+
+      .quartercircle1_var2{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 50px 0 0 0;
+        margin-top: 300px;
+        margin-left: 250px;
+      }
+
+      .quartercircle1_var3{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 0 100px 0 0;
+        margin-top: 170px;
+      }
+
+      .quartercircle2{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 0 0 0 100px;
+        margin-left: 250px;
+      }
+
+      .quartercircle3{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 0 100px 0 0;
+        margin-top: 175px;
+      }
+
+      .quartercircle3_var{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 0 100px 0 0;
+        margin-top: -50px;
+      }
+
+      .quartercircle4{
+        width: 50px; 
+        height: 50px; 
+        background: white;
+        border-radius: 0 0 100px 0;
+      }
+
+      .punctuation{
+         width: 300px;
+         height: 400px;
+         background-color: white;
+         margin: 10px;
+         display: inline-block
+      }
+
+      .period{
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: red;
+         margin-top: 300px;
+         margin-left: 100px;
+      }
+
+      .comma{
+         width: 100px;
+         height: 50px;
+         background: red;
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 100px;
+         margin-top: 350px;
+      }
+
+      .quote1 {
+         width: 100px;
+         height: 50px;
+         background: red;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+      }
+
+      .quote2 {
+         width: 100px;
+         height: 50px;
+         background: red;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 133.33px;
+         margin-top: -50px;
+      }
+
+      .quote3 {
+         width: 100px;
+         height: 50px;
+         background: red;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         margin-left: 66.66px;
+         box-sizing: border-box;
+      }
+
+      .quote4 {
+         width: 100px;
+         height: 50px;
+         background: red;
+         border-radius: 0 0 100px 100px;
+         -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+         box-sizing: border-box;
+         margin-left: 199.99px;
+         margin-top: -50px;
+      }
+
+      .punctuation2{
+         width: 300px;
+         height: 260px;
+         background-color: red;
+      }
+
+      .point{
+         border-radius: 50%;
+         width: 100px;
+         height: 100px;
+         background: red;
+         margin-top: 40px;
+         margin-left: 100px;
+      }
+
+
+      .point2{
+        height: 100px;
+        width: 50px;
+        border-radius: 0 100px 100px 0;
+        background: white;
+        margin-top: -320px;
+      }
+/*      .container{
+      position: absolute;
       width: 100%;
       height: 100%;
       }
@@ -15,18 +494,19 @@
       }
 	   .box{
       position: relative;
-      width: 10%;
+      width: 13.16%;
       height: 100%;
       float: left;
-   	background-color: white;
-   	cursor: pointer;
-      box-shadow: 0px 0px #0096ff;
-/*    transition: box-shadow 0.1s ease;
-      transition: box-shadow 5s ease;*/
+   	background-color: red;
+   	cursor: pointer;*/
+/*      margin:.5%;
+*//*      box-shadow: 0px 0px #0096ff;
+      transition: box-shadow 0.1s ease;
+      transition: box-shadow 5s ease;
       -webkit-transition: all 3s cubic-bezier(0, 0, 0.58, 1);
-      transition: all 2s cubic-bezier(0, 0, 1, 1);
+      transition: all 2s cubic-bezier(0, 0, 1, 1);*/
    	}
-   	.box:hover{
+/*   	.box:hover{
    	background-color: white;
       box-shadow: 0 5px 3000px #96ff00;
-   	}
+   	}*/
