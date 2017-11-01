@@ -1,512 +1,644 @@
-   	h1 {
-   	font-family: helvetica, arial, sans-serif;
-   	font-weight: bold;
-   	font-size: 2em;
-   	}
-
       .container{
-         margin-top: 150px;
-         margin-bottom: 150px;
          white-space: nowrap;
          overflow-x: auto;
+         height: 100%;
       }
 
       .letter{
          width: 300px;
          height: 400px;
-         background-color: red;
-         margin: 10px;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 200px;
+         margin-bottom: 150px;
          display: inline-block
       }
 
-      .dot1 {
-         border-radius: 50%;
-         width: 100px;
-         height: 100px;
-         background: white;
-         margin-top: 80px;
-         margin-left: 100px;
+      #a{
+         background-color: white;
       }
 
-
-      .dot1_var {
-         border-radius: 50%;
-         width: 100px;
-         height: 100px;
-         background: white;
-         margin-top: 150px;
-         margin-left: 100px;
-      }
-      
-      .dot1_var2 {
-         border-radius: 50%;
-         width: 100px;
-         height: 100px;
-         background: white;
-         margin-top: 30px;
-         margin-left: 100px;
+      #b{
+         background-color: white;
       }
 
-      .dot2 {
-         border-radius: 50%;
-         width: 100px;
-         height: 100px;
-         background: white;
-         margin-left: 100px;
-         margin-top: 40px;
+      #c{
+         background-color: white;
       }
 
-      .halfcircle1 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 100px;
-         margin-top: 170px;
+      #d{
+         background-color: white;
       }
 
-      .halfcircle1_var {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 100px;
-         margin-top: 300px;
+      #e{
+         background-color: white;
       }
 
-      .halfcircle1_var2 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 100px;
-         margin-top: 100px;
+      #f{
+         background-color: white;
       }
 
-      .halfcircle1_var3 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 100px;
-         margin-top: 350px;
+      #g{
+         background-color: white;
       }
 
-      .halfcircle1_var4 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 33.33px;
-         margin-top: 350px;
+      #h{
+         background-color: white;
       }
 
-      .halfcircle1_var5 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 166.66px;
-         margin-top: -50px;
-      }
-      
-      .halfcircle1_var6 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 33.33px;
+      #i{
+         background-color: white;
       }
 
-      .halfcircle1_var7 {
-         width: 100px;
-         height: 50px;
-         background: white;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 166.66px;
-         margin-top: -50px;
+      #j{
+         background-color: white;
       }
 
-      .halfcircle2 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 80px;
+      #k{
+         background-color: white;
       }
 
-      .halfcircle2_var {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 150px;
+      #l{
+         background-color: white;
       }
 
-      .halfcircle2_var2 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 100px;
+      #m{
+         background-color: white;
       }
 
-      .halfcircle2_var3 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: -25px;
+      #n{
+         background-color: white;
       }
 
-      .halfcircle2_var4 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 170px;
+      #o{
+         background-color: white;
       }
 
-      .halfcircle2_var5 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 40px;
+      #p{
+         background-color: white;
       }
 
-
-      .halfcircle2_var6 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: -30px;
+      #q{
+         background-color: white;
       }
 
-      .halfcircle2_var7 {
-         height: 100px;
-         width: 50px;
-         border-radius: 0 100px 100px 0;
-         background: white;
-         margin-top: 40px;
+      #r{
+         background-color: white;
       }
 
-      .halfcircle3 {
-         height: 100px;
-         width: 50px;
-         border-radius: 100px 0 0 100px;
-         background: white;
-         margin-left: 250px;
-         margin-top: 40px;
+      #s{
+         background-color: white;
       }
 
-
-      .halfcircle3_ver {
-         height: 100px;
-         width: 50px;
-         border-radius: 0 100px 100px 0;
-         background: white;
-         margin-top: 80px;
+      #t{
+         background-color: white;
       }
 
-      .halfcircle4{
-        height: 50px;
-        width: 100px;
-        border-radius: 0 0 100px 100px;
-        background: white;
-        margin-left: 100px;
+      #u{
+         background-color: white;
       }
 
-      .halfcircle5{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: -100px;
+      #v{
+         background-color: white;
       }
 
-      .halfcircle5_var{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: 150px;
+      #w{
+         background-color: white;
       }
 
-      .halfcircle5_var2{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: 40px;
+      #x{
+         background-color: white;
       }
 
-      .halfcircle5_var3{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: -100px;
+      #y{
+         background-color: white;
       }
 
-      .halfcircle5_var4{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: -250px;
+      #number1{
+         background-color: white;
       }
 
-      .halfcircle5_var5{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: 80px;
-      }
-      
-      .halfcircle5_var6{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: 40px;
-      }
-     
-      .halfcircle5_var7{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: -30px;
-      }
-      .quartercircle1{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 50px 0 0 0;
-        margin-top: 175px;
-        margin-left: 250px;
+      #number2{
+         background-color: white;
       }
 
-      .quartercircle1_var{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 50px 0 0 0;
-        margin-top: 100px;
-        margin-left: 250px;
+      #number3{
+         background-color: white;
       }
 
-      .quartercircle1_var2{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 50px 0 0 0;
-        margin-top: 300px;
-        margin-left: 250px;
+      #number4{
+         background-color: white;
       }
 
-      .quartercircle1_var3{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 0 100px 0 0;
-        margin-top: 170px;
+      #number5{
+         background-color: white;
       }
 
-      .quartercircle2{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 0 0 0 100px;
-        margin-left: 250px;
+      #number6{
+         background-color: white;
       }
 
-      .quartercircle3{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 0 100px 0 0;
-        margin-top: 175px;
+      #number7{
+         background-color: white;
       }
 
-      .quartercircle3_var{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 0 100px 0 0;
-        margin-top: -50px;
+      #number8{
+         background-color: white;
       }
 
-      .quartercircle4{
-        width: 50px; 
-        height: 50px; 
-        background: white;
-        border-radius: 0 0 100px 0;
+      #number9{
+         background-color: white;
+      }
+
+      #number0{
+         background-color: white;
+      }
+
+      #period{
+         background-color: white;
+      }
+
+      #comma{
+         background-color: white;
+      }
+
+      #quote1{
+         background-color: white;
+      }
+
+      #quote2{
+         background-color: white;
+      }
+
+      #mark1{
+         background-color: white;
+      }
+
+      #mark2{
+         background-color: white;
       }
 
       .punctuation{
          width: 300px;
          height: 400px;
          background-color: white;
-         margin: 10px;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 150px;
+         margin-bottom: 150px;
          display: inline-block
-      }
-
-      .period{
-         border-radius: 50%;
-         width: 100px;
-         height: 100px;
-         background: red;
-         margin-top: 300px;
-         margin-left: 100px;
-      }
-
-      .comma{
-         width: 100px;
-         height: 50px;
-         background: red;
-         border-top-left-radius: 50px;
-         border-top-right-radius: 50px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 100px;
-         margin-top: 350px;
-      }
-
-      .quote1 {
-         width: 100px;
-         height: 50px;
-         background: red;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-      }
-
-      .quote2 {
-         width: 100px;
-         height: 50px;
-         background: red;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 133.33px;
-         margin-top: -50px;
-      }
-
-      .quote3 {
-         width: 100px;
-         height: 50px;
-         background: red;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         margin-left: 66.66px;
-         box-sizing: border-box;
-      }
-
-      .quote4 {
-         width: 100px;
-         height: 50px;
-         background: red;
-         border-radius: 0 0 100px 100px;
-         -webkit-box-sizing: border-box;
-         -moz-box-sizing: border-box;
-         box-sizing: border-box;
-         margin-left: 199.99px;
-         margin-top: -50px;
       }
 
       .punctuation2{
          width: 300px;
          height: 260px;
-         background-color: red;
+         background-color: white;
       }
 
-      .point{
-         border-radius: 50%;
+      .punctuation3{
+         width: 300px;
+         height: 260px;
+         background-color: white;
+      }
+
+      .dot{
          width: 100px;
          height: 100px;
-         background: red;
-         margin-top: 40px;
-         margin-left: 100px;
+         border-radius: 50%;
+         background-color: #ffd700
       }
 
+      #dot1{
+         margin-top: -89px;
+         margin-left: -9px;
+      }
 
-      .point2{
-        height: 100px;
-        width: 50px;
-        border-radius: 0 100px 100px 0;
-        background: white;
-        margin-top: -320px;
+      #dot2{
+         margin-top: 180px;
+         margin-left: 39px;
       }
-/*      .container{
-      position: absolute;
-      width: 100%;
-      height: 100%;
+
+      #dot3{
+         margin-top: 237px;
+         margin-left: 19px;
       }
-      .row{
-      position: relative;
-      width: 100%;
-      height: 20%;
+
+      #dot4{
+         margin-top: 74px;
+         margin-left: 156px;
       }
-	   .box{
-      position: relative;
-      width: 13.16%;
-      height: 100%;
-      float: left;
-   	background-color: red;
-   	cursor: pointer;*/
-/*      margin:.5%;
-*//*      box-shadow: 0px 0px #0096ff;
-      transition: box-shadow 0.1s ease;
-      transition: box-shadow 5s ease;
-      -webkit-transition: all 3s cubic-bezier(0, 0, 0.58, 1);
-      transition: all 2s cubic-bezier(0, 0, 1, 1);*/
-   	}
-/*   	.box:hover{
-   	background-color: white;
-      box-shadow: 0 5px 3000px #96ff00;
-   	}*/
+
+      #dot5{
+         margin-top: 74px;
+         margin-left: 156px;
+      }
+
+      #dot6{
+         margin-top: -178px;
+         margin-left: 129px;
+      }
+
+      #dot7{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot8{
+         margin-top: 433px;
+         margin-left: 17px;
+      }
+
+      #dot9{
+         margin-top: -425px;
+         margin-left: 123px;
+      }
+
+      #dot10{
+         margin-top: 500px;
+         margin-left: 233px;
+      }
+
+      #dot11{
+         margin-top: -533px;
+         margin-left: 0px;
+      }
+
+      #dot12{
+         margin-top: 30px;
+         margin-left: 233px;
+      }
+
+      #dot13{
+         margin-top: 203px;
+         margin-left: 78px;
+      }
+
+      #dot14{
+         margin-top: 200px;
+         margin-left: 81px;
+      }
+
+      #dot15{
+         margin-top: 178px;
+         margin-left: 9px;
+      }
+
+      #dot16{
+         margin-top: 1px;
+         margin-left: 28px;
+      }
+
+      #dot17{
+         margin-top: 333px;
+         margin-left: 180px;
+      }
+
+      #dot18{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+      
+      #dot19{
+         margin-top: 51px;
+         margin-left: 167px;
+      }
+
+      #dot20{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot21{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot22{
+         margin-top: -34px;
+         margin-left: 213px;
+      }
+
+      #dot23{
+         margin-top: 289px;
+         margin-left: 0px;
+      }
+
+      #dot24{
+         margin-top: 93px;
+         margin-left: 199px;
+      }
+
+      #dot25{
+         margin-top: 387px;
+         margin-left: 34px;
+      }
+
+      #dot26{
+         margin-top: 1px;
+         margin-left: 3px;
+      }
+
+      #dot27{
+         margin-top: 188px;
+         margin-left: 33px;
+      }
+
+      #dot28{
+         margin-top: 411px;
+         margin-left: 200px;
+      }
+
+      #dot29{
+         margin-top: -333px;
+         margin-left: 0px;
+      }
+
+      #dot30{
+         margin-top: 0px;
+         margin-left: 33px;
+      }
+
+      #dot31{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot32{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot33{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot34{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot35{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot36{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot37{
+         margin-top: 433px;
+         margin-left: 200px;
+      }
+
+      #dot38{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot39{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot40{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot41{
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot42{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot43{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+      
+      #dot44{
+         margin-top: 51px;
+         margin-left: 167px;
+      }
+
+      #dot45{
+         margin-top: 189px;
+         margin-left: 0px;
+      }
+
+      #dot46{
+         margin-top: 3px;
+         margin-left: 203px;
+      }
+
+      #dot47{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot48{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot49{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot50{
+         margin-top: 132px;
+         margin-left: 0px;
+      }
+
+      #dot51{
+         margin-top: -433px;
+         margin-left: 164px;
+      }
+
+      #dot52{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot53{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot54{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot55{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot56{
+         margin-top: -178px;
+         margin-left: 129px;
+      }
+
+      #dot57{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot58{
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot59{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot60{
+         margin-top: -69px;
+         margin-left: 85px;
+      }
+
+      #dot61{
+         margin-top: 74px;
+         margin-left: 16px;
+      }
+
+      #dot62{
+         margin-top: 94px;
+         margin-left: 156px;
+      }
+
+      #dot63{
+         margin-top: -378px;
+         margin-left: 229px;
+      }
+
+      #dot64{
+         margin-top: 400px;
+         margin-left: 0px;
+      }
+
+      #dot65{
+         margin-top: -533px;
+         margin-left: 233px;
+      }
+
+      #dot66{
+         margin-top: 400px;
+         margin-left: 189px;
+      }
+
+      #dot67{
+         margin-top: -433px;
+         margin-left: 0px;
+      }
+
+      #dot68{
+         margin-top: -33px;
+         margin-left: 200px;
+      }
+
+      #dot69{
+         margin-top: -133px;
+         margin-left: 164px;
+      }
+
+      #dot70{
+         margin-top: 332px;
+         margin-left: 0px;
+      }
+
+      #dot71{
+         margin-top: 409px;
+         margin-left: 250px;
+      }
+
+      #dot72{
+         margin-top: -433px;
+         margin-left: 23px;
+      }
+
+      #dot73{
+         margin-top: 190px;
+         margin-left: 236px;
+      }
+
+      #dot74{
+         margin-top: 0px;
+         margin-left: 136px;
+      }
+
+      #dot75{
+         margin-top: -33px;
+         margin-left: 23px;
+      }
+      
+      #dot76{
+         width:
+         margin-top: -91px;
+         margin-left: 0px;
+      }
+
+      #dot77{
+         margin-top: 387px;
+         margin-left: 200px;
+      }
+
+      #dot78{
+         margin-top: 476px;
+         margin-left: 0px;
+      }
+
+      #dot79{
+         margin-top: -501px;
+         margin-left: 0px;
+      }
+
+      #dot80{
+         margin-top: -34px;
+         margin-left: 213px;
+      }
+
+      #dot81{
+         margin-top: -233px;
+         margin-left: 200px;
+      }
+
+      #dot82{
+         margin-top: -233px;
+         margin-left: 0px;
+      }
+
+      .intro{
+        height: 400px;
+        width:100%;
+        display: inline-block
+      }
+
+      img{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -150px;
+        display: block;
+      }
+
+      .whitebar{
+         width: 20px;
+         height: 400px;
+         margin-left: 25px;
+         margin-right: 25px;
+         margin-top: 200px;
+         margin-bottom: 150px;
+         display: inline-block
+      }
+      
