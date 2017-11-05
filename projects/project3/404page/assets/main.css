@@ -17,7 +17,36 @@ canvas {
    margin-top: 609px;
    width: 170px;
    position: fixed;
+}
 
+.type{
+    position: fixed;
+    margin-left: 1340px;
+    padding-top: 480px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-small;
+    color: white;
+    text-align: right;
+}
+
+.title{
+    position: fixed;
+    margin-left: 1225px;
+    padding-top: 507px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: right;
+}
+
+.date{
+    position: fixed;
+    margin-left: 1277px;
+    padding-top: 587px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: small;
+    color: white;
+    text-align: right;
 }
 
 input[type=range] {
@@ -30,6 +59,7 @@ input[type=range] {
     /*required for proper track sizing in FF*/
     width: 170px;
 }
+
 input[type=range]::-webkit-slider-runnable-track {
     width: 170px;
     height: 5px;
@@ -37,6 +67,7 @@ input[type=range]::-webkit-slider-runnable-track {
     border: none;
     border-radius: 3px;
 }
+
 input[type=range]::-webkit-slider-thumb {
     -webkit-appearance: none;
     border: none;
@@ -46,9 +77,11 @@ input[type=range]::-webkit-slider-thumb {
     background: goldenrod;
     margin-top: -4px;
 }
+
 input[type=range]:focus {
     outline: none;
 }
+
 input[type=range]:focus::-webkit-slider-runnable-track {
     background: #ccc;
 }
@@ -60,6 +93,7 @@ input[type=range]::-moz-range-track {
     border: none;
     border-radius: 3px;
 }
+
 input[type=range]::-moz-range-thumb {
     border: none;
     height: 16px;
@@ -88,14 +122,17 @@ input[type=range]::-ms-track {
     /*remove default tick marks*/
     color: transparent;
 }
+
 input[type=range]::-ms-fill-lower {
     background: #777;
     border-radius: 10px;
 }
+
 input[type=range]::-ms-fill-upper {
     background: #ddd;
     border-radius: 10px;
 }
+
 input[type=range]::-ms-thumb {
     border: none;
     height: 16px;
@@ -103,9 +140,11 @@ input[type=range]::-ms-thumb {
     border-radius: 50%;
     background: goldenrod;
 }
+
 input[type=range]:focus::-ms-fill-lower {
     background: #888;
 }
+
 input[type=range]:focus::-ms-fill-upper {
     background: #ccc;
 }
