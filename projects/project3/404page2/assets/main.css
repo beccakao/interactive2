@@ -1,111 +1,87 @@
 body {
    background-color: #FF4E32;
+   padding: 10px;
 }
 
-canvas {
-   padding-left: 0;
-   padding-right: 0;
-   margin-left: auto;
-   margin-right: auto;
-   margin-top: 33px;
-   margin-bottom: 50px;
-   display: block;
+img{
+    position: absolute;
 }
 
-.slider{
-   margin-left: 1225px;
-   margin-top: 609px;
-   width: 170px;
-   position: fixed;
-
+#draggable1{
+  cursor: move;
+  position: relative;
+  margin-top: -35px;
+  margin-left: 575px; /* important (all position that's not `static`) */
 }
 
-input[type=range] {
-    /*removes default webkit styles*/
-    -webkit-appearance: none;
-    
-    /*fix for FF unable to apply focus style bug */
-    border: 1px solid white;
-    
-    /*required for proper track sizing in FF*/
-    width: 170px;
-}
-input[type=range]::-webkit-slider-runnable-track {
-    width: 170px;
-    height: 5px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
-}
-input[type=range]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: goldenrod;
-    margin-top: -4px;
-}
-input[type=range]:focus {
-    outline: none;
-}
-input[type=range]:focus::-webkit-slider-runnable-track {
-    background: #ccc;
+#draggable2{
+  cursor: move;
+  position: relative;
+  margin-left: 350px;
+  margin-top: 200px; /* important (all position that's not `static`) */
 }
 
-input[type=range]::-moz-range-track {
-    width: 170px;
-    height: 5px;
-    background: #ddd;
-    border: none;
-    border-radius: 3px;
-}
-input[type=range]::-moz-range-thumb {
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: goldenrod;
+#draggable3{
+  cursor: move;
+  position: relative;
+  margin-left: 605px;
+  margin-top: 200px; /* important (all position that's not `static`) */
 }
 
-/*hide the outline behind the border*/
-input[type=range]:-moz-focusring{
-    outline: 1px solid white;
-    outline-offset: -1px;
+#draggable4{
+  cursor: move;
+  position: relative;
+  margin-left: 670px;
+  margin-top: 290px; /* important (all position that's not `static`) */
 }
 
-input[type=range]::-ms-track {
-    width: 170px;
-    height: 5px;
-    
-    /*remove bg colour from the track, we'll use ms-fill-lower and ms-fill-upper instead */
-    background: transparent;
-    
-    /*leave room for the larger thumb to overflow with a transparent border */
-    border-color: transparent;
-    border-width: 6px 0;
+#draggable5{
+  cursor: move;
+  position: relative;
+  margin-left: 855px;
+  margin-top: -120px; /* important (all position that's not `static`) */
+}
 
-    /*remove default tick marks*/
-    color: transparent;
+#draggable6{
+  cursor: move;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 500px; /* important (all position that's not `static`) */
 }
-input[type=range]::-ms-fill-lower {
-    background: #777;
-    border-radius: 10px;
+
+#draggable7{
+  cursor: move;
+  position: relative;
+  margin-left: 1150px;
+  margin-top: -470px; /* important (all position that's not `static`) */
 }
-input[type=range]::-ms-fill-upper {
-    background: #ddd;
-    border-radius: 10px;
+
+.type{
+    position: fixed;
+    margin-left: 1330px;
+    padding-top: 495px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-small;
+    color: white;
+    text-align: right;
 }
-input[type=range]::-ms-thumb {
-    border: none;
-    height: 16px;
-    width: 16px;
-    border-radius: 50%;
-    background: goldenrod;
+
+.title{
+    position: fixed;
+    margin-left: 1293px;
+    padding-top: 522px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: x-large;
+    color: white;
+    text-align: right;
 }
-input[type=range]:focus::-ms-fill-lower {
-    background: #888;
-}
-input[type=range]:focus::-ms-fill-upper {
-    background: #ccc;
+
+.date{
+    position: fixed;
+    margin-left: 1268px;
+    padding-top: 602px;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: small;
+    color: white;
+    text-align: right;
 }
