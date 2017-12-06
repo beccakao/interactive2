@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $(function() {
         $( "#draggable1" ).draggable();
     });
@@ -19,5 +20,36 @@ $(document).ready(function(){
         $( "#draggable5" ).draggable();
     });
 
+    $(function() {
+        $( "#draggable6" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable7" ).draggable();
+    });
+
+    $(function() {
+        $( "#mountainthingy" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable8" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable9" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable10" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable11" ).draggable();
+    });
+
+    $(function() {
+        $( "#draggable12" ).draggable();
+    });
 
 });
